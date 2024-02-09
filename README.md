@@ -1,13 +1,16 @@
 --- Parking Lot System Readme ---
 
 ---> Introduction
+
 This project is a simple parking lot management system written in Java. It allows users to manage a parking lot by issuing tickets to cars entering the lot, recording registration numbers and colors, allocating parking slots, and freeing up slots when cars leave. Additionally, it supports several commands to retrieve information such as registration numbers by color, slot numbers by registration number, and slot numbers by color.
 
 
 ---> Getting Started
+
 To use the Parking Lot System, you have three options:
 
 1. Compilation and Execution
+   
 Compile all Java files and then run the ParkingLotApp class.
 
 
@@ -15,18 +18,21 @@ javac *.java
 java ParkingLotApp
 
 2. Using JAR file
+
 You can also run the provided JAR file directly.
 
 
 java -jar parkinglot.jar
 
 3. Docker
+   
 Alternatively, you can use Docker to run the project without setting it up locally.
 
 
 docker run -it --rm raja110199/parkinglot
 
 ---> Commands:
+
 The Parking Lot System supports the following commands:
 
 1- create_parking_lot <capacity> - Creates a parking lot with the specified capacity.
@@ -40,9 +46,11 @@ The Parking Lot System supports the following commands:
 9- exit - Exits the parking lot system.
 
 ---> Example Usage
+
 Here's an example of using the Parking Lot System:
 
 Welcome to the Parking Lot System!
+
 ->create_parking_lot 6
 Created a parking lot with 6 slots.
 
@@ -107,6 +115,7 @@ Allocated slot number: 1
 Bye...
 
 ---> Additional Information
+
 
 1- This project follows best practices and includes error handling using try-catch blocks.
 2- It utilizes a min heap data structure for assigning parking slots and tree map and hashmap for efficient retrieval of information.
