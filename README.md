@@ -49,7 +49,7 @@ The Parking Lot System supports the following commands:
 
 Here's an example of using the Parking Lot System:
 
-Welcome to the Parking Lot System!
+->Welcome to the Parking Lot System!
 
 ->create_parking_lot 6
 Created a parking lot with 6 slots.
